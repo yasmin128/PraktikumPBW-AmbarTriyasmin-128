@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Data Diri</title>
+  </head>
+  <body>
+    <form action="" method="" enctype="multipart/form-data">
+      <h2 align="left">Form Data Diri</h2>
+      <div>
+        <label for="name">Nama:</label>
+        <input type="text" name="username" placeholder="Masukkan nama anda" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Masukkan email anda"
+          required
+        />
+      </div>
+      <div>
+        <label for="">Jenis Kelamin:</label>
+        <input type="radio" name="gender" value="L" />Laki-laki
+        <input type="radio" name="gender" value="P" />Perempuan
+      </div>
+      <div>
+        <label for="">Pilih Hobi:</label>
+        <input type="checkbox" name="hobi" value="musik" />Main Musik
+        <input type="checkbox" name="hobi" value="olahraga" />Olahraga
+        <input type="checkbox" name="hobi" value="melukis" />Melukis
+        <input type="checkbox" name="hobi" value="fotografi" />Fotografi
+      </div>
+      <div>
+        <label for="">Pilih Kota:</label>
+        <select name="city" id="">
+          <option value="Bandung">Bandung</option>
+          <option value="Jakarta" selected>Jakarta</option>
+          <option value="Karawang">Karawang</option>
+          <option value="Bogor">Bogor</option>
+          <option value="Bekasi">Bekasi</option>
+        </select>
+      </div>
+      <div>
+        <label for="file">Upload Foto:</label>
+        <input type="file" id="file" name="file" />
+      </div>
+      <button type="submit">Kirim</button>
+    </form>
+  </body>
+</html>
