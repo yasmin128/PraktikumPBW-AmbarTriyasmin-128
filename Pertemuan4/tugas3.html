@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Sederhana Yasmin</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <header>
+    <h2>Welcome to My Page!</h2>
+  </header>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Tentang</a></li>
+        <li><a href="#">Layanan</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="form-section">
+        <h3>Formulir Pendaftaran</h3>
+        <p>Halo! Silakan isi formulir di bawah ini untuk mendaftar.</p>
+
+        <form>
+          <label for="name">Nama Lengkap:</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Masukkan nama anda"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Masukkan email anda"
+            required
+          />
+
+          <label for="">Jenis Kelamin:</label>
+          <div class="radio-group">
+            <input type="radio" name="gender" value="L" />Laki-laki
+            <input type="radio" name="gender" value="P" />Perempuan
+          </div>
+
+          <label for="">Pilih Hobi:</label>
+          <div class="checkbox-group">
+            <input type="checkbox" name="hobi" value="musik" />Main Musik
+            <input type="checkbox" name="hobi" value="olahraga" />Olahraga
+            <input type="checkbox" name="hobi" value="melukis" />Melukis
+            <input type="checkbox" name="hobi" value="fotografi" />Fotografi
+          </div>
+
+          <label for="">Pilih Kota:</label>
+          <div class="option-group">
+            <select name="city" id="">
+              <option value="Bandung">Bandung</option>
+              <option value="Jakarta" selected>Jakarta</option>
+              <option value="Karawang">Karawang</option>
+              <option value="Bogor">Bogor</option>
+              <option value="Bekasi">Bekasi</option>
+            </select>
+          </div>
+
+          <label for="">Pesan Tambahan:</label>
+          <textarea
+            name="komentar"
+            rows="5"
+            placeholder="Tulis pesan di sini..."
+          ></textarea>
+
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+
+      <div class="sidebar">
+        <h3>Sidebar</h3>
+        <p>
+          Bagian sidebar dapat berisi tautan, iklan, atau informasi tambahan.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
