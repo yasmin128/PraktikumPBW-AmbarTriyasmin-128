@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.form-section {
+  flex: 2;
+  background-color: #ffe5ec;
+  padding: 20px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.radio-group,
+.checkbox-group {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+form select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 8px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
